@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Parth Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+  </head>
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo">
+        <img src="./assests/mylogo1.png" alt="" class="icon mylogo" />
+      </div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamberger-nav">
+      <div class="logo">Parth</div>
+      <div class="hamberger-menu">
+        <div class="hamberger-icons" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li><a href="#project" onclick="toggleMenu()">Project</a></li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section-pic-container">
+        <img
+          src="./assests/profile-pic.png"
+          alt="Parth Profile Pic"
+          srcset=""
+        />
+      </div>
+      <div class="section-text">
+        <p class="section-text-p1">Hello, I'm</p>
+        <h1 class="title">Parth Gupta</h1>
+        <p class="section-text-p2">Fullstack Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('./assests/resume-example.pdf')"
+          >
+            Resume
+          </button>
+          <button
+            class="btn btn-color-1"
+            onclick="location.href = './#contact'"
+          >
+            Contact
+          </button>
+        </div>
+        <div id="social-containers">
+          <img
+            src="./assests/linkedin.png"
+            alt="My linkedin profile"
+            srcset=""
+            class="icon"
+            onclick="location.href = 'https:www.linkedin.com/in/parth-gupta-86b23b222'"
+          />
+          <img
+            src="./assests/github.png"
+            alt="My Github profile"
+            srcset=""
+            class="icon"
+            onclick="location.href = 'https://www.google.com/'"
+          />
+        </div>
+      </div>
+    </section>
+    <section id="about">
+      <p class="section-text-p1">get to Know More.</p>
+      <h1 class="title">About Me</h1>
+      <div id="section-container">
+        <div class="section-pic-container">
+          <img
+            src="./assests/about-pic.png"
+            alt="Profile Picture"
+            srcset=""
+            class="about-pic"
+          />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img
+                src="./assests/education.png"
+                alt="Experience Icon"
+                srcset=""
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Technology</p>
+              <h5>(2021-2025)</h5>
+            </div>
+            <div class="details-container">
+              <img
+                src="./assests/education.png"
+                alt="Education"
+                srcset=""
+                class="icon"
+              />
+              <h3>Education</h3>
+              <p>Bachelor of Technology
+                
+              </p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+              maxime at minima ipsam, ducimus recusandae ex blanditiis saepe
+              ullam vel cum, enim ratione. Rerum unde suscipit ipsum odio sunt
+              ab aliquam omnis error, delectus cum. Vero debitis alias eum
+              obcaecati esse nihil, aperiam consequuntur delectus nostrum
+              perferendis quisquam ipsa dolorem.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assests/arrow.png"
+        alt=""
+        srcset="Arrow Icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section-text-p1">Explore my</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub">FRONTEND DEVELOPMENT</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub">FRONTEND DEVELOPMENT</h2>
+            <div class="article-container">
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img
+                  src="./assests/checkmark.png"
+                  alt="Experience"
+                  srcset=""
+                  class="icon"
+                />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+      src="./assests/arrow.png"
+      alt=""
+      srcset="Arrow Icon"
+      class="icon arrow"
+      onclick="location.href='./#projects'"
+    />
+    </section>
+    <section id="projects">
+    <p class="section-text-p1">Browse My Recent</p>
+        <h1 class="title">Projects</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assests/project-1.png" alt="" srcset="" class="project-img">
+            </div>
+            <h2 class="experience-sub project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href('')"
+              >Github</button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href('')"
+              >Live Demo</button>
+          </div>
+        </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assests/project-2.png" alt="" srcset="" class="project-img">
+            </div>
+            <h2 class="experience-sub project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href('')"
+              >Github</button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href('')"
+              >Live Demo</button>
+          </div>
+        </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img src="./assests/project-3.png" alt="" srcset="" class="project-img">
+            </div>
+            <h2 class="experience-sub project-title">Project One</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href('')"
+              >Github</button>
+              <button
+                class="btn btn-color-2 project-btn"
+                onclick="location.href('')"
+              >Live Demo</button>
+          </div>
+        </div>
+       </div>
+       <img
+        src="./assests/arrow.png"
+        alt="Arrow Icon"
+        srcset=""
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+      </section>
+      <section id="contact">
+        <p class="section-text-p1">Get In touch</p>
+        <h1 class="title">Contact Me</h1>
+        <div class="contact-me-upper-container">
+          <div class="contact-info-container">
+            <img src="./assests/email.png" alt="email icon" srcset="" class="icon contact-icon email-icon">
+            <p><a href="mailto:heyparth2004@gmail.com">heyparth2004@gmail.com</a></p>
+          </div>
+          <div class="contact-info-container">
+            <img src="./assests/linkedin.png" alt="linkedin icon" srcset="" class="icon contact-icon">
+            <p><a href="https:www.linkedin.com/in/parth-gupta-86b23b222">linkedIn</a></p>
+          </div>
+        </div>
+      </section>
+
+      <footer>
+        <p>Copyright &#169; 2024 Parth Gupta, All Rights Reserved.</p>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
